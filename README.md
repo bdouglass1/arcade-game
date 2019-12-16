@@ -7,14 +7,16 @@
 
 ## Instructions
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
+Use the directional array keys (up, down, left, right) to move the player. The player can only move one square per direction key hit. The goal of the game is to have the player reach the water (other side) without hitting any of the enemies or bugs. If the player hits an enemey, then the player is reset back to the start position. A collision occurs when the player comes into contact with an enemy on any side. The score is deducted by 50 points everytime the player and an enemy collide. Futher, 75 points is rewarded every time the player makes it across to the water. Game is won when the score either reaches or surpasses 300 points. 
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+Once the score either reaches or surpasses 300 points, a win modal populates. This resets the score and the user can decide to play again by simply closing the win modal. 
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
-
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This repository is the starter code by Udacity was included:
+app.js - this is the file where I edited and added code. 
+engine.js - only thing I edited with this file is uncommenting the checkCollisions(allEnemies, player) function call and making use of it.
+resourcs.js - No edit made to this js file.
+
+I've also uploaded images of the gameplay. 
