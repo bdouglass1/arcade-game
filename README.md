@@ -14,12 +14,12 @@ Once the score either reaches or surpasses 300 points, a win modal populates. Th
 
 ## Contributing
 
-This repository is the starter code by Udacity was included:
+Starter code by Udacity was included provided:
   
 app.js - this is the file where I edited and added code. 
   
 engine.js - only thing I edited with this file is uncommenting the checkCollisions(allEnemies, player) function call and making use of it.
   
 resourcs.js - No edit made to this js file.
-
+h
 I've also uploaded images of the gameplay. 
